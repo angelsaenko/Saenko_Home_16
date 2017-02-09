@@ -31,8 +31,21 @@ h4 {
 .tab{
   line-height: 1.5;
   font-size: 18px;
+}
 
+.forum {
+  h2{
+    margin-top: 60px;
+  }
+  label {
+    display: block;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
 
+  input {
+    margin-left: 10px;
+  }
 }
 
 
