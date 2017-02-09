@@ -1,0 +1,46 @@
+@import '../base/typography';
+@import '../themes/theme';
+
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table;
+}
+
+h2 {
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.signature{
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+h4 {
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+
+}
+.tab{
+  line-height: 1.5;
+  font-size: 18px;
+
+
+}
+
+
+//.descr {
+//  color: #585858;
+//  font-size: 14px;
+//  font-weight: 400;
+//  line-height: 1.5;
+//}
+//
+

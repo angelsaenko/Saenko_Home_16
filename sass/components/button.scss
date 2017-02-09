@@ -1,0 +1,23 @@
+@import '../base/typography';
+.button {
+  margin: 50px auto 0 auto;
+
+  max-width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  background-color: rgba(113, 113, 113, 0);
+  line-height: 40px;
+  a {
+    display: block;
+    text-decoration: none;
+    color: #343434;
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  a:hover{
+    background-color: #eee;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../base/typography';
+@import '../themes/theme';
+@import '../base/common';
+@import '../components/single-line-form';
+@import '../components/button';
+
+
+header {
+  .container {
+    padding: 20px 15px 50px 15px;
+  }
+  .menu-icon {
+    text-align: right;
+    display: none;
+  }
+  .menu {
+    padding: 0;
+    margin: 0 auto;
+    li {
+      float: left;
+      display: block;
+      a {
+        padding: 20px;
+        display: block;
+        text-decoration: none;
+        margin: 1px;
+        color: #fff;
+        background: #444;
+      }
+    }
+    li a:hover  {
+      background-color: #333;
+    }
+  }
+  @media (max-width:768px) {
+
+    .menu{
+      li{
+        float:none;
+      }
+    }
+    .menu-icon{
+      display: block;
+    }
+
+
+  }
+
+}
+
+
+
+

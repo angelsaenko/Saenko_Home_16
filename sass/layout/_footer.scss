@@ -1,0 +1,16 @@
+@import '../base/typography';
+@import '../themes/theme';
+@import '../base/common';
+@import '../components/single-line-form';
+
+footer {
+  background-color: #404040;
+  .footer-border {
+    background: url("../images/border-footer.png");
+    background-position: left;
+    background-repeat: repeat-x;
+    height: 6px;
+    width: 100%;
+
+  }
+}
