@@ -10,18 +10,15 @@
 <body>
 <header>
     <div class="container">
-
         <nav class="nav">
             <div class="menu-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve"><g><g><path d="M23.244,17.009H0.75c-0.413,0-0.75,0.36-0.75,0.801v3.421C0,21.654,0.337,22,0.75,22h22.494c0.414,0,0.75-0.346,0.75-0.77    V17.81C23.994,17.369,23.658,17.009,23.244,17.009z M23.244,9.009H0.75C0.337,9.009,0,9.369,0,9.81v3.421    c0,0.424,0.337,0.769,0.75,0.769h22.494c0.414,0,0.75-0.345,0.75-0.769V9.81C23.994,9.369,23.658,9.009,23.244,9.009z     M23.244,1.009H0.75C0.337,1.009,0,1.369,0,1.81V5.23c0,0.423,0.337,0.769,0.75,0.769h22.494c0.414,0,0.75-0.346,0.75-0.769V1.81    C23.994,1.369,23.658,1.009,23.244,1.009z"/></g></g></svg>
             </div>
-
-            <ul class="menu clearfix">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Forum</a></li>
+            <ul class="menu">
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#forum">Forum</a></li>
             </ul>
         </nav>
     </div>
@@ -30,7 +27,7 @@
 
 <main>
     <div class="container">
-        <section class="about-us">
+        <section class="about-us" id="about">
             <h2>About-us</h2>
             <div class="signature">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ipsa molestias quam
                 vero vitae. Aut consequatur minima quaerat quasi
@@ -61,14 +58,13 @@
             </div>
 
         </section>
-        <section class="work">
-
+        <section class="work" id="work">
             <h2>Work</h2>
             <div class="signature">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut cum
                 cupiditate
                 dolores ducimus earum, eius error illo illum ipsum
             </div>
-            <div class="sa-acordeon">
+            <div class="sa-acordeon" id="accord1">
                 <h4 class="active">
                     <a href="#acord-1">
                         <i class="fa fa-caret-right" aria-hidden="true"></i>
@@ -159,7 +155,7 @@
 
 
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2>Contact</h2>
             <div class="signature">Delectus doloribus eligendi et iste laborum, libero magni molestias odit optio
                 praesentium quo ratione soluta tenetur totam!
@@ -168,7 +164,7 @@
                 <a href="#" onclick="saModal('modal-1');return false">Create user</a>
             </div>
         </section>
-        <section class="forum">
+        <section class="forum" id="forum">
             <h2>Forum</h2>
             <div class="signature">Asperio rescupiditate debitis dolor dolorem doloremque eveniet ipsum iusto minima nam natus necessitatibus rerum sequi sunt
                 vel voluptates.</div>
@@ -181,7 +177,7 @@
                 <label for="firstname">Name<input type="text" id="firstname" title="Please enter your name" required></label>
             </div>
             <div class="button">
-                <a href="#">Forum</a>
+                <a href="">Forum</a>
             </div>
         </section>
     </div>

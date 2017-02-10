@@ -4,7 +4,6 @@
 @import '../components/single-line-form';
 @import '../components/button';
 
-
 header {
   .container {
     padding: 20px 15px 50px 15px;
@@ -16,9 +15,12 @@ header {
   .menu {
     padding: 0;
     margin: 0 auto;
+
+
     li {
       float: left;
       display: block;
+
       a {
         padding: 20px;
         display: block;
@@ -28,25 +30,28 @@ header {
         background: #444;
       }
     }
-    li a:hover  {
-      background-color: #333;
+    li a:hover,li a.active  {
+      background-color: darkgrey;
     }
-  }
-  @media (max-width:768px) {
 
-    .menu{
-      li{
-        float:none;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      li {
+        float: none;
       }
     }
-    .menu-icon{
+    .menu-icon {
       display: block;
     }
-
+    .menu {
+      display: none;
+    }
 
   }
-
 }
+
 
 
 

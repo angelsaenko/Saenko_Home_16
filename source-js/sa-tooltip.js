@@ -11,6 +11,7 @@ function saTooltip(id) {
         });
         tooltip.fadeIn('slow');
     });
+
     root.mouseout(function() {
         $('.sa-tooltip').fadeOut('slow');
     });

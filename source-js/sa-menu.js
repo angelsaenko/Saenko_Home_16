@@ -1,3 +1,5 @@
-/**
- * Created by HOME on 09.02.2017.
- */
+var $items = $('.menu li a');
+$items.on('click', function(){
+    $items.removeClass('active');
+    $(this).addClass('active');
+});
