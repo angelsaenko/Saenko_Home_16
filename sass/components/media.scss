@@ -1,0 +1,38 @@
+//HEADER//
+@media (max-width: 465px) {
+  .container{
+    padding: 20px;
+  }
+}
+header {
+  @media (max-width: 768px) {
+    .container{
+      padding-bottom: 0;
+    }
+    .menu {
+      li {
+        float: none;
+      }
+    }
+    .menu-icon {
+      display: block;
+    }
+    .menu {
+      display: none;
+    }
+  }
+}
+
+.about-us {
+  @media (max-width: 465px) {
+    .sa-tabs {
+      li {
+        text-align: center;
+        border: 1px solid ghostwhite;
+        width: 100%;
+      }
+    }
+  }
+}
+
+

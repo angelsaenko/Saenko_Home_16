@@ -1,21 +1,20 @@
-@import '../base/typography';
-@import '../themes/theme';
-@import '../base/common';
-@import '../components/single-line-form';
-@import '../components/button';
-
 header {
+  background-color: #444;
   .container {
-    padding: 20px 15px 50px 15px;
+    padding-top: 20px;
   }
   .menu-icon {
     text-align: right;
     display: none;
+    svg {
+      g {
+        fill: #fff;
+      }
+    }
   }
   .menu {
     padding: 0;
     margin: 0 auto;
-
 
     li {
       float: left;
@@ -27,29 +26,14 @@ header {
         text-decoration: none;
         margin: 1px;
         color: #fff;
-        background: #444;
       }
     }
-    li a:hover,li a.active  {
+    li a:hover, li a.active {
       background-color: darkgrey;
     }
 
   }
 
-  @media (max-width: 768px) {
-    .menu {
-      li {
-        float: none;
-      }
-    }
-    .menu-icon {
-      display: block;
-    }
-    .menu {
-      display: none;
-    }
-
-  }
 }
 
 
